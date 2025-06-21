@@ -64,6 +64,10 @@ function Login({ setIsAuthenticated }) {
             <button type="submit" className="btn btn-primary w-100">Login</button>
           </form>
         </div>
+        <p className="mt-3 text-center">
+           Don't have an account? <a href="/signup">Signup here</a>
+       </p>
+
       </div>
     </div>
   );
